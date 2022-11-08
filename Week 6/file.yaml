@@ -1,0 +1,13 @@
+file_type: csv
+dataset_name: data_pandas
+file_name: transactions_train
+table_name: transactions_train
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - t_dat
+    - customer_id
+    - article_id
+    - price
+    - sales_channel_id
